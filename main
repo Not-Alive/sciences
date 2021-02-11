@@ -1,0 +1,589 @@
+local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = GUI.Load({
+    Title = "Science Simulator", -- The Top Title Name
+    Style = 2, -- There is 3
+    SizeX = 500, -- The Width
+    SizeY = 500, -- The Height 
+    Theme = "Dark" -- Light,Mocha,Aqua, and 1 more but dark is the best one
+})
+
+local AutoFarmTab = UI.New({
+    Title = "AutoFarm"
+    })
+
+
+local AutoHatchTab = UI.New({
+    Title = "Auto-Hatch"
+    })
+
+
+
+
+local MiscTab = UI.New({
+    Title = "Misc"
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Scripts
+AutoFarmTab.Toggle({
+    Text = "Auto Tap",
+    Callback = function(text)
+        if text == false then 
+            getgenv().AutoFarm = false
+        elseif text == true then 
+            getgenv().AutoFarm = true 
+            while AutoFarm do
+                wait(0.01)
+          
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["acbe8f16-4b45-493e-8626-e401eba6e95b"]:FireServer()
+
+
+end
+end
+end})
+
+AutoFarmTab.Toggle({
+    Text = "Auto Tap 2",
+    Callback = function(text100)
+        if text100 == false then 
+            getgenv().AutoFarm100 = false
+        elseif text100 == true then 
+            getgenv().AutoFarm100 = true 
+            while AutoFarm100 do
+                wait(0.01)
+           
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["acbe8f16-4b45-493e-8626-e401eba6e95b"]:FireServer()
+
+
+end
+end
+end})
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 50 Rebirth",
+    Callback = function(text1)
+        if text1 == false then 
+            getgenv().AutoFarm1 = false
+        elseif text1 == true then 
+            getgenv().AutoFarm1 = true 
+            while AutoFarm1 do
+                wait(0.01)
+               
+
+local args = {
+    [1] = 3
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 25 Rebirth",
+    Callback = function(text2)
+        if text2 == false then 
+            getgenv().AutoFarm2 = false
+        elseif text2 == true then 
+            getgenv().AutoFarm1 = true 
+            while AutoFarm2 do
+                wait(0.01)
+               
+
+local args = {
+    [1] = 2
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 100 Rebirth",
+    Callback = function(text8)
+        if text8 == false then 
+            getgenv().AutoFarm8 = false
+        elseif text8 == true then 
+            getgenv().AutoFarm8 = true 
+            while AutoFarm8 do
+                wait(0.01)
+                
+local args = {
+    [1] = 4
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 250 Rebirth",
+    Callback = function(text9)
+        if text9 == false then 
+            getgenv().AutoFarm9 = false
+        elseif text9 == true then 
+            getgenv().AutoFarm9 = true 
+            while AutoFarm9 do
+                wait(0.01)
+                
+local args = {
+    [1] = 5
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 500 Rebirth",
+    Callback = function(text10)
+        if text10 == false then 
+            getgenv().AutoFarm10 = false
+        elseif text10 == true then 
+            getgenv().AutoFarm10 = true 
+            while AutoFarm10 do
+                wait(0.01)
+                
+
+local args = {
+    [1] = 6
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 3K Rebirth",
+    Callback = function(text11)
+        if text11 == false then 
+            getgenv().AutoFarm11 = false
+        elseif text11 == true then 
+            getgenv().AutoFarm11 = true 
+            while AutoFarm11 do
+                wait(0.01)
+                
+
+local args = {
+    [1] = 7
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 5K Rebirth",
+    Callback = function(text12)
+        if text12 == false then 
+            getgenv().AutoFarm12 = false
+        elseif text12 == true then 
+            getgenv().AutoFarm12 = true 
+            while AutoFarm12 do
+                wait(0.01)
+                
+local args = {
+    [1] = 8
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 10K Rebirth",
+    Callback = function(text13)
+        if text13 == false then 
+            getgenv().AutoFarm13 = false
+        elseif text13 == true then 
+            getgenv().AutoFarm13 = true 
+            while AutoFarm13 do
+                wait(0.01)
+                
+local args = {
+    [1] = 9
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 20K Rebirth",
+    Callback = function(text14)
+        if text14 == false then 
+            getgenv().AutoFarm14 = false
+        elseif text14 == true then 
+            getgenv().AutoFarm14 = true 
+            while AutoFarm14 do
+                wait(0.01)
+                
+
+local args = {
+    [1] = 10
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 40K Rebirth",
+    Callback = function(text15)
+        if text15 == false then 
+            getgenv().AutoFarm15 = false
+        elseif text15 == true then 
+            getgenv().AutoFarm15 = true 
+            while AutoFarm15 do
+                wait(0.01)
+               
+
+local args = {
+    [1] = 11
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 80K Rebirth",
+    Callback = function(text16)
+        if text16 == false then 
+            getgenv().AutoFarm16 = false
+        elseif text16 == true then 
+            getgenv().AutoFarm16 = true 
+            while AutoFarm16 do
+                wait(0.01)
+                
+local args = {
+    [1] = 12
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 160K Rebirth",
+    Callback = function(text17)
+        if text17 == false then 
+            getgenv().AutoFarm17 = false
+        elseif text17 == true then 
+            getgenv().AutoFarm17 = true 
+            while AutoFarm17 do
+                wait(0.01)
+                
+
+local args = {
+    [1] = 13
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 200K Rebirth",
+    Callback = function(text18)
+        if text18 == false then 
+            getgenv().AutoFarm18 = false
+        elseif text18 == true then 
+            getgenv().AutoFarm18 = true 
+            while AutoFarm18 do
+                wait(0.01)
+                
+local args = {
+    [1] = 14
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 400K Rebirth",
+    Callback = function(text19)
+        if text19 == false then 
+            getgenv().AutoFarm19 = false
+        elseif text19 == true then 
+            getgenv().AutoFarm19 = true 
+            while AutoFarm19 do
+                wait(0.01)
+                
+
+local args = {
+    [1] = 15
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+
+
+
+
+
+
+AutoFarmTab.Toggle({
+    Text = "Auto 2M Rebirth",
+    Callback = function(text20)
+        if text20 == false then 
+            getgenv().AutoFarm20 = false
+        elseif text20 == true then 
+            getgenv().AutoFarm20 = true 
+            while AutoFarm20 do
+                wait(0.01)
+                
+
+local args = {
+    [1] = 16
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["26bf618d-a375-4dd2-987c-f0d44911aa2b"]:FireServer(unpack(args))
+
+end
+end
+end})
+
+
+
+--end of AutoFarm
+
+
+
+
+
+
+
+
+
+--start of AutoHatch
+
+
+AutoHatchTab.Toggle({
+    Text = "Auto Hatch 'Vialentines' Egg",
+    Callback = function(text3)
+        if text3 == false then 
+            getgenv().AutoFarm3 = false
+        elseif text3 == true then 
+            getgenv().AutoFarm3 = true 
+            while AutoFarm3 do
+                wait(0.01)
+           
+
+local args = {
+    [1] = "FCAEDDEB-EB0F-4006-A2E2-E11492EA94CC",
+    [2] = {
+        [1] = {
+            ["eggName"] = "Vialentines Egg",
+            ["purchaseAmount"] = 1
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["40ff44c6-ab4d-4cf8-b3e2-88688213e4aa"]:FireServer(unpack(args))
+
+
+
+end
+end
+end})
+
+
+
+
+
+AutoHatchTab.Toggle({
+    Text = "Auto Hatch Pink Egg",
+    Callback = function(text4)
+        if text4 == false then 
+            getgenv().AutoFarm4 = false
+        elseif text4 == true then 
+            getgenv().AutoFarm4 = true 
+            while AutoFarm4 do
+                wait(0.01)
+           
+
+local args = {
+    [1] = "5B4DE4C4-ECDB-4396-8AC4-0BEE69C2096A",
+    [2] = {
+        [1] = {
+            ["eggName"] = "Altar Egg",
+            ["purchaseAmount"] = 1
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["40ff44c6-ab4d-4cf8-b3e2-88688213e4aa"]:FireServer(unpack(args))
+
+
+
+end
+end
+end})
+
+
+
+
+
+
+AutoHatchTab.Toggle({
+    Text = "Auto Hatch Faded Egg",
+    Callback = function(text5)
+        if text5 == false then 
+            getgenv().AutoFarm5 = false
+        elseif text5 == true then 
+            getgenv().AutoFarm5 = true 
+            while AutoFarm5 do
+                wait(0.01)
+          
+local args = {
+    [1] = "FE09232F-4E1F-418B-B7C3-5AABCDCB56C2",
+    [2] = {
+        [1] = {
+            ["eggName"] = "Faded Egg",
+            ["purchaseAmount"] = 1
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.NetManagedInstances["40ff44c6-ab4d-4cf8-b3e2-88688213e4aa"]:FireServer(unpack(args))
+
+
+
+
+end
+end
+end})
+
+
+
+--misc table
+
+
+MiscTab.Toggle({
+    Text = "Anti-Afk",
+    Callback = function(text90)
+        if text90 == false then 
+            getgenv().AutoFarm90 = false
+        elseif text90 == true then 
+            getgenv().AutoFarm90 = true 
+            while AutoFarm90 do
+                wait(0.01)
+                
+                
+ for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do
+v:Disable()
+end
+end
+end
+end})
